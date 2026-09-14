@@ -13,3 +13,5 @@ Matrix = reshape(N:N+8, 3, 3)';
 a = Matrix(3, 2);
 b = Matrix(2:3, 1:2);
 c = Matrix([1 3], [1 3]);
+
+M = [Matrix; Narr(1:3)]
